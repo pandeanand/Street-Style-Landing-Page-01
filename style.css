@@ -1,0 +1,172 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap'); */
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Orbitron', Helvetica, snas-serif;
+  align-items: center;
+  font-weight: 600;
+  margin: 2rem 6rem;
+}
+
+.list-item{
+  list-style: none;
+  margin: 0 1rem;
+}
+
+li:hover{
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button{
+  background-color: transparent;
+  font-family: 'Orbitron', Helvetica, snas-serif;
+  padding: 7px 38px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-group{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* Navbar end here ... Hero content started */
+
+.hero-container{
+  height: 70vh;
+  display: flex;
+}
+
+.square{
+  z-index: -1;
+  position: relative;
+  top: 150px;
+  left: 28%;
+}
+
+img{
+  max-height: 90%;
+  max-width: auto;
+  position: relative;
+  right: 50%;
+  top: 20px;
+}
+
+.ImageHero{
+  /* border: solid red; */
+  position: relative;
+  left: -12%;
+  top: 20px;
+}
+
+.globe{
+  position: relative;
+  top: -10px;
+  left: 21%
+}
+
+.star{
+  position: relative;
+  left: 59%;
+  top: 60px;
+  height: 50px;
+} 
+
+.hero-container-right{
+ width: 900px;
+}
+
+.hero-heading{
+  font-family: 'Orbitron', Helvetica, snas-serif;
+  font-weight: 700;
+  font-size: 50px;
+  position: relative;
+  top: 25%;
+  left: -30%;
+  width:800px;
+}
+
+.hero-description{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: 28%;
+  left: -25%;
+  width: 600px;
+  text-align: center;
+}
+
+.button-email{
+  font-family: 'Orbitron', Helvetica, snas-serif;
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+  left: -5%;
+  cursor: pointer;
+}
+
+.button-join{
+  font-family: 'Orbitron', Helvetica, snas-serif;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+  left: -3%;
+  cursor: pointer;
+}
+
+.contact-heading{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 340px;
+  left: 7%;
+}
+
+.facebook{
+  position: relative;
+  top: 350px;
+  left: 5px;
+}
+
+.messenger{
+  position: relative;
+  top: 350px;
+  left: 5px;
+}
+
+.instagram{
+  position: relative;
+  top: 350px;
+  left: 5px;
+}
+
+.whatsapp{
+  position: relative;
+  top: 350px;
+  left: 5px;
+}
+
+
